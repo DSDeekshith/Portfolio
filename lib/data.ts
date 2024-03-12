@@ -100,10 +100,10 @@ export const skillsData = [
   "MongoDB",
   "Express",
   "MySQL",
-  "Django",
   "Framer Motion",
   "Azure DevOps",
   "Data Structures & Algorithms",
   "C",
-  "C++"
+  "C++",
+  "DevOps CI/CD"
 ] as const;
