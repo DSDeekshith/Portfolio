@@ -71,7 +71,7 @@ export default function Project({
           alt="Project I worked on"
           quality={95}
           className="absolute top-8 -right-40
-        w-[28.25rem] rounded-t-lg shadow-2xl
+        w-[28.25rem] rounded-lg shadow-2xl
         group-hover:scale-[1.04] 
         group-hover:-translate-x-3
         group-hover:translate-y-3
