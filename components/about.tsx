@@ -25,8 +25,8 @@ export default function About() {
         <span className="font-medium">PES Uiversity</span>, I have joined{" "}
         <span className="italic font-medium">CSG International</span> as a{" "}
         <span className="font-medium">Software Development Engineer Grad</span>,
-        where I worked on Invision project (a part of CSG's product Ascendon). I
-        have been promoted to{" "}
+        where I worked on Invision project (a part of CSG&apos;s product
+        Ascendon). I have been promoted to{" "}
         <span className="font-medium">Software Development Engineer 1</span>{" "}
         recognizing my abilities, skills and contribution to the team.
       </p>

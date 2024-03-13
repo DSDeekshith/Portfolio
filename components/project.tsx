@@ -34,12 +34,12 @@ export default function Project({
         className=" bg-gray-100 
       max-w-[42rem] border-black/5
     overflow-hidden sm:pr-8 relative rounded-lg 
-     sm:h-[20rem] group-even:pl-8 hover:bg-gray-200 transition"
+     sm:h-[20rem] sm:group-even:pl-8 hover:bg-gray-200 transition"
       >
         <div
           className="pt-4 pb-7 px-5 sm:pl-10 
       sm:pr-2 sm:pt-10 sm:max-w-[50%] flex 
-      flex-col h-full group-even:ml-[18rem]"
+      flex-col h-full sm:group-even:ml-[18rem]"
         >
           <h3
             className="text-2xl 
@@ -70,7 +70,7 @@ export default function Project({
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
-          className="absolute top-8 -right-40
+          className="absolute hidden sm:block top-8 -right-40
         w-[28.25rem] rounded-lg shadow-2xl
         group-hover:scale-[1.04] 
         group-hover:-translate-x-3
