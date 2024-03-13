@@ -8,9 +8,11 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
@@ -87,6 +89,10 @@ export default function Intro() {
             rounded-full outline-none 
             focus:scale-110 hover:scale-110 
           hover:bg-gray-950 active:scale-105 transition"
+          onClick={() => {
+            setActiveSection("Contact");
+            setTimeOfLastClick(Date.now());
+          }}
         >
           Contact me here
           <BsArrowRight
@@ -101,7 +107,7 @@ export default function Intro() {
             rounded-full outline-none 
             focus:scale-110 hover:scale-110 
             active:scale-105 transition
-            border border-black/10"
+            borderBlack"
           href="/Deekshith_Resume.pdf"
           download
         >
@@ -115,7 +121,7 @@ export default function Intro() {
             focus:scale-[1.15] hover:scale-[1.15] 
             active:scale-105 transition
             hover:text-gray-950
-            border border-black/10"
+            borderBlack"
           href="https://www.linkedin.com/in/sai-deekshith-dasari-b58147173/"
           target="_blank"
         >
@@ -128,7 +134,7 @@ export default function Intro() {
             focus:scale-[1.15] hover:scale-[1.15] 
             hover:text-gray-950
             active:scale-105 transition
-            border border-black/10"
+            borderBlack"
           href="https://github.com/DSDeekshith"
           target="_blank"
         >
