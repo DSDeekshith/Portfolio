@@ -107,7 +107,7 @@ export default function Intro() {
             rounded-full outline-none 
             focus:scale-110 hover:scale-110 
             active:scale-105 transition
-            borderBlack"
+            borderBlack dark:bg-white/10"
           href="/SaiDeekshithDasari_Resume.pdf"
           download
         >
@@ -121,7 +121,7 @@ export default function Intro() {
             focus:scale-[1.15] hover:scale-[1.15] 
             active:scale-105 transition
             hover:text-gray-950
-            borderBlack"
+            borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/sai-deekshith-dasari-b58147173/"
           target="_blank"
         >
@@ -134,7 +134,7 @@ export default function Intro() {
             focus:scale-[1.15] hover:scale-[1.15] 
             hover:text-gray-950
             active:scale-105 transition
-            borderBlack"
+            borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/DSDeekshith"
           target="_blank"
         >
