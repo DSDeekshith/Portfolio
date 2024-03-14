@@ -108,7 +108,7 @@ export default function Intro() {
             focus:scale-110 hover:scale-110 
             active:scale-105 transition
             borderBlack"
-          href="/Deekshith_Resume.pdf"
+          href="/SaiDeekshithDasari_Resume.pdf"
           download
         >
           Download CV

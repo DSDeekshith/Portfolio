@@ -37,12 +37,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "PES University",
+    title: "Sofware Development Engineer 1",
     location: "Bangalore, Karnataka",
     description:
-      "I graduated from college with an engineering degree in Computer Science. I immediately joined as Software Developement Engineer Graduate in CSG Company",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021",
+      "I'm now a software developer with 2+ years experience in developing web application. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities as full-stack developer.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - present",
   },
   {
     title: "Software Development Engineer Graduate",
@@ -53,12 +53,12 @@ export const experiencesData = [
     date: "2021 - 2022",
   },
   {
-    title: "Sofware Development Engineer 1",
+    title: "PES University",
     location: "Bangalore, Karnataka",
     description:
-      "I'm now a software developer with 2+ years experience in developing web application. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities as full-stack developer.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2022 - present",
+      "I graduated from college with an engineering degree in Computer Science. I immediately joined as Software Developement Engineer Graduate in CSG Company",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021",
   },
 ] as const;
 
