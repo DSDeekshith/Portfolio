@@ -40,13 +40,13 @@ export const experiencesData = [
     title: "Sofware Development Engineer 1",
     location: "Bangalore, Karnataka",
     description:
-      "I'm now a software developer with 2+ years experience in developing web application. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities as full-stack developer.",
+      "I'm now a software developer with 3+ years experience in developing web application. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities as full-stack developer.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - present",
   },
   {
     title: "Software Development Engineer Graduate",
-    location: "Bangakore, Karnataka",
+    location: "Bangalore, Karnataka",
     description:
       "I worked as a DevOps Engineer for 6 months, post that I got promoted to Sofware Development Engineer 1 recognizing my skills.",
     icon: React.createElement(CgWorkAlt),
@@ -73,8 +73,8 @@ export const projectsData = [
   {
     title: "WCT",
     description:
-      "I have developed this Web Application as a freelancing project, which is currently used by a transportation company in West Central region, Minnesota",
-    tags: ["React", "TypeScript", "Next.js", "NodeJS", "MongoDB", "ExpressJS"],
+      "Developed this Web Application as a freelancing project, which is currently used by a transportation company in West Central region, Minnesota",
+    tags: ["React", "SpringBoot", "TypeScript", "Spring REST", "Spring Security", "PostgreSQL"],
     imageUrl: wctImg,
   },
   // {
@@ -92,15 +92,12 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
+  "Spring Boot",
+  "Spring Data JPA",
+  "Spring REST",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Express",
+  "PostgreSQL",
   "MySQL",
-  "Framer Motion",
   "Azure DevOps",
   "Data Structures & Algorithms",
   "C",

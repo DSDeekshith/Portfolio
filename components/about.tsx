@@ -33,11 +33,14 @@ export default function About() {
       <p>
         My core stack is{" "}
         <span className="font-medium">
-          React, Next.js, JavaScript, TypeScript, Node.js and MongoDB.
+          Java, Spring Boot, Spring, React, JavaScript, TypeScript, Node.js and
+          PostgreSQL.
         </span>{" "}
         I am always looking to learn new technologies. I am currently looking
         for <span className="font-medium">fulltime</span> position as{" "}
-        <span className="font-medium">Software Developer</span>
+        <span className="font-medium">
+          Full-stack Developer/Software Developer/Software Engineer
+        </span>
       </p>
     </motion.section>
   );

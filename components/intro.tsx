@@ -65,10 +65,10 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Deekshith.</span> I&apos;m a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">2.5+ years</span> of experience. I enjoy
+        <span className="font-bold">Full-stack developer</span> with{" "}
+        <span className="font-bold">3+ years</span> of experience. I enjoy
         building <span className="italic">web sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>
+        <span className="underline">Java Spring Boot & React</span>
       </motion.h1>
 
       <motion.div
@@ -108,7 +108,7 @@ export default function Intro() {
             focus:scale-110 hover:scale-110 
             active:scale-105 transition
             borderBlack dark:bg-white/10"
-          href="/SaiDeekshithDasari_Resume.pdf"
+          href="/Deekshith_resume_latest.pdf"
           download
         >
           Download CV
